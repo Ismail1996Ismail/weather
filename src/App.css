@@ -12,6 +12,8 @@
   position: relative;
   width: 200px;
   height: 100vh;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .spinner:before {
