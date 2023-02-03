@@ -1,0 +1,10 @@
+.WeatherBottomBlock {
+  max-width: 730px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.arrow {
+  align-self: center;
+  cursor: pointer;
+}

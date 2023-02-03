@@ -1,0 +1,43 @@
+.WeatherTopBlock {
+  display: flex;
+  justify-content: space-between;
+  max-width: 725px;
+  margin: auto;
+
+}
+.WeatherSwich {
+  width: 90px;
+  height: 40px;
+  margin-top: 5px;
+  cursor: pointer;
+
+  position: relative;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background:rgba(255, 255, 255, 0.16);
+  color: #fff;
+  font-weight: 700;
+  
+  border-radius: 100px;
+}
+.WeatherSwich .block{
+  width: 50%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.WeatherSwich .off {
+  width: 50%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

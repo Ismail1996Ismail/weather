@@ -1,0 +1,50 @@
+.Watch {
+  display: flex;
+  padding: 75px 0;
+  color: #fff;
+  text-align: center;
+}
+.title {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 120%;
+  text-shadow: -1.51px 2.26px 0.75px rgba(0, 0, 0, 0.1);
+  margin-bottom: 28px;
+}
+.watch_block {
+  width: 105px;
+  height: 210px;
+  padding: 27px 0;
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #EBEBEB;
+}
+.watch_block img {
+  width: 70px;
+  height: 35px;
+  margin-bottom: 40px;
+}
+.goldenWatch {
+  padding: 30px 0;
+  width: 130px;
+  height: 245px;
+}
+.goldenHour {
+  margin: 0 60px;
+}
+.goldenHour .title {
+  margin-bottom: 36px;
+}
+.time__watch {
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 35px;
+  color: #FFF;
+}
+.mb {
+  margin-top: 65px;
+}

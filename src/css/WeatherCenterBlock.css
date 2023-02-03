@@ -1,0 +1,18 @@
+.WeatherCenterBlock {
+  padding: 35px 0 75px;
+}
+.data {
+  font-size: 36px;
+  padding-top: 17px;
+}
+.time {
+  font-size: 24px;
+  padding: 16px 0 40px;
+}
+p {
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  text-shadow: -1.51px 2.26px 0.75px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}

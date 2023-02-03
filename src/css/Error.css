@@ -1,0 +1,33 @@
+.Error {
+  width: 350px;
+  height: 380px;
+  background: #67709c;
+  border: 1px solid #8d95bc;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.ErrorOff {
+  display: none;
+}
+.Error h2 {
+  margin-bottom: 250px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+.Error p {
+  color: #fff;
+  font-size: 22px;
+  padding-left: 20px;
+}
+.Error button {
+  position: relative;
+  bottom: 7%;
+  left: 80%;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+}

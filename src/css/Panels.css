@@ -1,0 +1,18 @@
+.Panels {
+  display: flex;
+  justify-content: space-between;
+  max-width: 470px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 120%;
+  color: #FFF;
+  text-shadow: -1.51px 2.26px 0.75px rgba(0, 0, 0, 0.1);
+}
+.Panels h4 {
+  padding: 60px 0 40px;
+}
+.panel img {
+  width: 180px;
+  height: 95px;
+}

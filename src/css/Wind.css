@@ -1,0 +1,28 @@
+.Wind {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* max-width: 610px; */
+  max-width: 400px;
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFF;
+  text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+
+  list-style: none;
+
+}
+li {
+  display: flex;
+  justify-content: space-around;
+}
+.Wind img {
+
+  width: 16px;
+}
+span {
+  padding: 0 18px 0 12px;
+}
