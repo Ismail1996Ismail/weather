@@ -8,14 +8,12 @@ function WeatherBottomBlock(){
   const newWeatherArr = weatherArr.filter(i => {
     return new Date(i?.dt_txt).getDay() !== data.getDay() && new Date(i?.dt_txt).getHours() === 12
 
-  })
+  });
   return(
     <div className="WeatherBottomBlock">
-      {newWeatherArr.map(i => {
+      {newWeatherArr.map((i, idx) => {
         return(
-          <>
-            <WeatherCards arr = {i}/>
-          </>
+              <WeatherCards key={idx + 2} arr = {i}/>
         )
       })}
     </div>

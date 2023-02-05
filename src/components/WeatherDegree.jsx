@@ -9,7 +9,7 @@ function WeatherDegree({weatherArr}){;
   const faringate = (weatherArr[0]?.main?.temp * 1.8 + 32);
   return(
     <div className="WeatherDegree">
-      <h2>{degreeSwich ? Math.round(weatherArr[0]?.main?.temp) : Math.round(faringate)}</h2>
+      <h2>{weatherArr[0].main?.temp ? (degreeSwich ? Math.round(weatherArr[0].main.temp) : Math.round(faringate)) : 0}</h2>
       <div className='img'>
         <img src={degreeSwich ? img : img2} alt="C" />
       </div>
