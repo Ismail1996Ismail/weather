@@ -2,23 +2,20 @@
   background: rgba(255, 255, 255, 0.2);
   filter: blur(0.569258px);
   border-radius: 11px;
-
-  width: 110px;
-  height: 200px;
-  padding: 15px 0;
-
+  width: 100px;
+  height: 160px;
+  padding: 10px 0;
   line-height: 30px;
   text-align: center;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 19px;
   color: #FFF;
-  text-shadow: -1.13852px 1.70778px 0.569258px rgba(0, 0, 0, 0.1);
-
+  text-shadow: -1.13852px 1.70778px 0.569258px rgb(0 0 0 / 10%);
   cursor: pointer;
 }
 .WeatherCard img {
-  margin: 20px 0;
-  width: 40px;
+  margin: 15px 0;
+  width: 35px;
 }
 .WeatherCard:hover {
   box-shadow: -1px 0px 20px 4px rgb(84 84 84);

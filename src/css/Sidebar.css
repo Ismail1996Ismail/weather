@@ -1,8 +1,7 @@
 .Sidebar {
   background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  box-shadow: inset -5px -5px 250px rgb(255 255 255 / 2%);
   border-left: 3px solid rgba(255, 255, 255, 0.26);
   width: 40%;
-  /* max-width: 575px; */
-  padding: 30px;
+  padding: 20px;
 }

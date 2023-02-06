@@ -2,13 +2,13 @@
   display: flex;
 }
 .WeatherDegree h2 {
-  font-size: 164px;
+  font-size: 64px;
   color: #fff;
   font-weight: 100;
 }
 .WeatherDegree .img {
-  width: 45px;
-  height: 40px;
+  width: 20px;
+  height: 30px;
 }
 .WeatherDegree .img img {
   width: 100%;

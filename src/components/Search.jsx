@@ -20,8 +20,8 @@ function Search(){
   return(
     <div className="Search">
       <div className="location">
-        <img src={geo} alt="geoloc" />
-        <span>{city}, {new Intl.DisplayNames(['en'], {type: 'region'}).of(weatherSity)}</span>
+        <div className='locImg-block'><img src={geo} alt="geoloc" /></div>
+       <div>{city}, {new Intl.DisplayNames(['en'], {type: 'region'}).of(weatherSity)}</div>
       </div>
       <form onSubmit={handleClick} className='searchBox'>
         <input className="search-txt" type="text" onChange={handleChange}/>

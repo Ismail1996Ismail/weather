@@ -1,6 +1,6 @@
 .Error {
-  width: 350px;
-  height: 380px;
+  width: 220px;
+  height: 275px;
   background: #67709c;
   border: 1px solid #8d95bc;
   border-radius: 10px;
@@ -14,21 +14,22 @@
   display: none;
 }
 .Error h2 {
-  margin-bottom: 250px;
-  padding-left: 20px;
+  padding-bottom: 175px;
+  padding-left: 10px;
   padding-top: 20px;
+  font-size: 16px;
   color: #fff;
 }
 .Error p {
   color: #fff;
-  font-size: 22px;
-  padding-left: 20px;
+  font-size: 13px;
+  padding-left: 5px;
 }
 .Error button {
   position: relative;
   bottom: 7%;
-  left: 80%;
-  width: 60px;
-  height: 30px;
+  left: 75%;
+  width: 44px;
+  height: 24px;
   border-radius: 10px;
 }

@@ -1,8 +1,13 @@
 .App {
-  max-width: 1440px;
+  max-width: 1000px;
+  height: 520px;
   display: flex;
   background: linear-gradient(248.66deg, #91BEF3 0%, #48355B 100%);
-  margin: auto;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .spinner {
   --red: #d62d20;

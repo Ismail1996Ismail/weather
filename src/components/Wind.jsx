@@ -1,6 +1,6 @@
 import wind from '../static/img/wind.png';
 import hum from '../static/img/Hum.png';
-// import rain from '../static/img/Rain.png';
+
 import '../css/Wind.css'
 
 function Wind({weatherArr}){
@@ -14,8 +14,6 @@ function Wind({weatherArr}){
       <li><img src={wind} alt="wind" /><span>Wind</span> {(arr[0]?.wind.speed * 3.6).toFixed(1)} km/h</li>
       <li>|</li>
       <li><img src={hum} alt="hum" />  <span>Hum</span> {arr[0]?.main.humidity}%</li>
-      {/* <li>|</li> */}
-      {/* <li><img src={rain} alt="rain" /><span>Rain</span>  0.2 %</li> */}
     </ul>
   )
 }
